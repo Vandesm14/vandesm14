@@ -46,10 +46,10 @@
 			</p>
 		</article>
 		<article>
-			<h2>Human Specs</h2>
+			<h2>My Specs</h2>
 			<p>
 				Who needs those? Can't we just trust each other? No? Well, here are a
-				few bullet points for the recruiters then:
+				few bullet points for the recruiters out there:
 				<ul>
 					<li>{exp} years of fullstack NodeJS, Svelte, and Frontend
 						experience</li>
@@ -100,6 +100,17 @@
 			<p>
 				That community I talked about in my bio. If you haven't read it, TL;DR:
 				It is a dev & tech community I run with a podcast and other fun stuff.
+			</p>
+		</article>
+		<article>
+			<a href="https://respdev.com">
+				<h2>Portfolio</h2>
+			</a>
+			<p>
+				The thing you're looking at now. So meta right? I went through various
+				iterations over the years, this one being the most recent. I actually
+				spent quite a bit of time wireframing and designing this to make it
+				look and work the best.
 			</p>
 		</article>
 	</section>
