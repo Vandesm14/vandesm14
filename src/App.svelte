@@ -119,14 +119,14 @@
 			</p>
 		</article>
 		<article>
-			<a href="#you-are-already-here">
+			<!-- svelte-ignore a11y-invalid-attribute -->
+			<a href="javascript:void(0)" on:click={()=>alert('you\'re already here silly!')} target="_self">
 				<h2>Portfolio</h2>
 			</a>
 			<p>
-				The thing you're looking at now. So meta right? I went through various
-				iterations over the years, this one being the most recent. I actually
-				spent quite a bit of time wireframing and designing this to make it
-				look and work the best.
+				The thing you're looking at now. It took me various iterations over
+				the years to finally get this right. I actually spent quite a bit of
+				time wireframing and designing this to make it look awesome!
 			</p>
 		</article>
 	</section>
