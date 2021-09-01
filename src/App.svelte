@@ -1,8 +1,14 @@
 <script lang="ts">
 	import logo from './assets/glasses.png';
+	import arrow from './assets/arrow.png';
 
 	let age = new Date().getFullYear() - 2002;
 	let exp = new Date().getFullYear() - 2017;
+
+	let hideArrow = false;
+	const scroll = (e) => {
+		hideArrow = e.target.scrollLeft > 0;
+	};
 </script>
 
 <main>
@@ -60,7 +66,8 @@
 				</ul>
 		</article>
 	</section>
-	<section class="projects">
+	<section class="projects" on:scroll={scroll}>
+		<img src={arrow} alt="arrow" class="arrow" class:hide={hideArrow}>
 		<article>
 			<a href="https://classaware.org/timer.html">
 				<h2>Classaware</h2>
@@ -103,7 +110,7 @@
 			</p>
 		</article>
 		<article>
-			<a href="https://respdev.com">
+			<a href="#you-are-already-here">
 				<h2>Portfolio</h2>
 			</a>
 			<p>
@@ -215,6 +222,20 @@
 		align-items: center;
 	}
 
+	.projects > .arrow {
+		position: absolute;
+		top: calc(70%);
+		right: 0px;
+		transition: transform 200ms ease-out, opacity 200ms ease-out;
+		cursor: pointer;
+	}
+	.projects > .arrow:hover {
+		transform: scale(1.2);
+	}
+	.projects > .arrow.hide {
+		opacity: 0;
+	}
+
 	@media (max-width: 600px) {
 		main {
 			display: flex;
@@ -227,6 +248,9 @@
 		.projects {
 			flex-direction: column;
 			gap: 1rem;
+		}
+		.projects > .arrow {
+			display: none;
 		}
 	}
 </style>
