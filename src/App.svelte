@@ -2,6 +2,10 @@
 	import logo from './assets/glasses.png';
 	import arrow from './assets/arrow.png';
 
+	import discord from './assets/discord.svg';
+	import github from './assets/github.svg';
+	import mail from './assets/mail.svg';
+
 	let age = new Date().getFullYear() - 2002;
 	let exp = new Date().getFullYear() - 2017;
 
@@ -17,6 +21,11 @@
 		<img src={logo} alt="mug shot" class="border-dark">
 		<h1>Shane Vandegrift</h1>
 		<h3 style="margin:0.5rem 0">Web-Dev Bird</h3>
+		<div class="contact">
+			<a href="https://respdev.com/discord"><img src={discord} alt="discord" style="color: red"></a>
+			<a href="https://github.com/Vandesm14"><img src={github} alt="github" style="color: red"></a>
+			<a href="mailto:vandesm14@gmail.com"><img src={mail} alt="mail" style="color: red"></a>
+		</div>
 	</section>
 	<section class="about border">
 		<article>
@@ -186,6 +195,21 @@
 	  width: 200px;
 	  height: 200px;
 	  border-radius: 50%;
+	}
+
+	.profile h1, h3 {
+		margin: 0;
+	}
+
+	.profile .contact img {
+		width: 2.5rem;
+		height: 2.5rem;
+		filter: invert(1);
+		margin: 0 0.5rem;
+		transition: transform 150ms ease-out;
+	}
+	.profile .contact img:hover {
+		transform: scale(1.2);
 	}
 
 	.about {
