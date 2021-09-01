@@ -78,7 +78,7 @@
 	<section class="projects" on:scroll={scroll}>
 		<img src={arrow} alt="arrow" class="arrow" class:hide={hideArrow}>
 		<article>
-			<a href="https://classaware.org/timer.html">
+			<a href="http://classaware.org/timer.html">
 				<h2>Classaware</h2>
 			</a>
 			<p>
