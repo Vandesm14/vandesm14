@@ -9,9 +9,15 @@
 	let age = new Date().getFullYear() - 2002;
 	let exp = new Date().getFullYear() - 2017;
 
+	let projects: HTMLElement;
+
 	let hideArrow = false;
 	const scroll = (e) => {
 		hideArrow = e.target.scrollLeft > 0;
+	};
+
+	const doScroll = () => {
+		projects.children[4].scrollTo();
 	};
 </script>
 
@@ -75,8 +81,9 @@
 				</ul>
 		</article>
 	</section>
-	<section class="projects" on:scroll={scroll}>
-		<img src={arrow} alt="arrow" class="arrow" class:hide={hideArrow}>
+	<section class="projects" on:scroll={scroll} bind:this={projects}>
+		<!-- <img src={arrow} alt="arrow" class="arrow" class:hide={hideArrow}
+		on:click={doScroll}> -->
 		<article>
 			<a href="http://classaware.org/timer.html">
 				<h2>Classaware</h2>
@@ -120,7 +127,8 @@
 		</article>
 		<article>
 			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a href="javascript:void(0)" on:click={()=>alert('you\'re already here silly!')} target="_self">
+			<a href="javascript:void(0)"
+			on:click={()=>alert('you\'re already here silly!')}	target="_self">
 				<h2>Portfolio</h2>
 			</a>
 			<p>
@@ -254,7 +262,7 @@
 		cursor: pointer;
 	}
 	.projects > .arrow:hover {
-		transform: scale(1.2);
+		transform: scale(1.2) translateX(-0.5rem);
 	}
 	.projects > .arrow.hide {
 		opacity: 0;
