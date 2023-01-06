@@ -1,6 +1,6 @@
 # Hi!
 
-Nice to see you! I'm not bothered to recreate my portfolio using Markdown so
-please go to https://thedevbird.com check it out!
+I'm Shane, a friendly TypeScript/React fullstack developer and Rust enthusiast. I like computers and enjoy staring at a screen for hours.
 
-Also, welcome!!
+Here, have a silhouette:
+![Silhouette](https://user-images.githubusercontent.com/23623276/210936378-44a11fba-b6c1-4722-9713-94cddbc3effd.png)
