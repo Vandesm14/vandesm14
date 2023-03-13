@@ -1,182 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/fav.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shane Vandegrift</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" href="/fav.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shane Vandegrift</title>
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Shane Vandegrift" />
+    <meta
+      name="description"
+      content="Professional web developer with a knack for side projects and broad horizions"
+    />
+    <meta
+      name="keywords"
+      content="shane vandegrift, web developer, developer, fullstack, portfolio, personal, about me, friendly, dev bird, vandesm14"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Shane Vandegrift" />
 
-  <!-- Primary Meta Tags -->
-  <meta name="title" content="Shane Vandegrift">
-  <meta name="description" content="A friendly bird who does fullstack web development">
-  <meta name="keywords"
-    content="shane vandegrift, web developer, developer, fullstack, portfolio, personal, about me, friendly, dev bird, vandesm14">
-  <meta name="robots" content="index, follow">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="language" content="English">
-  <meta name="author" content="Shane Vandegrift">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://thedevbird.com/" />
+    <meta property="og:title" content="Shane Vandegrift" />
+    <meta
+      property="og:description"
+      content="Professional web developer with a knack for side projects and broad horizions"
+    />
+    <meta property="og:image" content="https://thedevbird.com/banner.jpg" />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://thedevbird.com/">
-  <meta property="og:title" content="Shane Vandegrift">
-  <meta property="og:description" content="A friendly bird who does fullstack web development">
-  <meta property="og:image" content="https://thedevbird.com/banner.jpg">
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://thedevbird.com/">
-  <meta property="twitter:title" content="Shane Vandegrift">
-  <meta property="twitter:description" content="A friendly bird who does fullstack web development">
-  <meta property="twitter:image" content="https://thedevbird.com/banner.jpg">
-
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <main>
-    <base target="_blank">
-    <section class="profile border">
-      <img src='/assets/glasses.png' alt="mug shot" class="border-dark">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://thedevbird.com/" />
+    <meta property="twitter:title" content="Shane Vandegrift" />
+    <meta
+      property="twitter:description"
+      content="Professional web developer with a knack for side projects and broad horizions"
+    />
+    <meta
+      property="twitter:image"
+      content="https://thedevbird.com/banner.jpg"
+    />
+  </head>
+  <body>
+    <main>
       <h1>Shane Vandegrift</h1>
-      <h3 style="margin:0.5rem 0; margin-bottom: 1rem;">Web-Dev</h3>
-      <div class="contact">
-        <a href="https://theturbo.fish/discord"><img src='/assets/discord.svg' alt="discord"></a>
-        <a href="https://github.com/Vandesm14"><img src='/assets/github.svg' alt="github"></a>
-        <a href="https://blog.thedevbird.com"><img src='/assets/hashnode.svg' alt="blog"></a>
-        <a href="mailto:vandesm14@gmail.com"><img src='/assets/gmail.svg' alt="mail" style="border-radius: 0;"></a>
-      </div>
-    </section>
-    <section class="about border">
-      <article>
-        <h2>Who Am I?</h2>
-        <p>
-          Good question! I sometimes wonder that myself.
-
-          <br><br>
-
-          I am a <span id="age">{age}</span>-year-old
-          full-stack Node.js developer with a passion for frontend development.
-          I enjoy having too many projects, crazy ideas, and excessive humor
-          (haha). I mainly work in the web, although I branch off into random
-          backend projects with Node.js or Deno. I have a constant flow of ideas
-          so there is never nothing to work on!
-
-          <br><br>
-
-          I also manage a dev & tech community called
-          <a href="https://theturbo.fish">TurboFish</a> (formerly Responsive).
-          I work on podcast episodes and host fun events. TurboFish is a place
-          for me to live out my dream as a "successful" community manager while
-          failing at social media.
-        </p>
-      </article>
-      <article>
-        <h2>What Am I Doing?</h2>
-        <p>
-          I am currently working for the Support Team of Replit
-          (started in June 2021) as a full-time employee. My job is to manage
-          the entire support process from beginning to end. I fiddle through
-          emails looking for reports of interest then debug those reports to
-          turn them into tickets. I also take care of billing and payment
-          processing (<i>so many refunds...</i>).
-
-          <br><br>
-
-          A fun quirk of being a developer is that I also have a good
-          understanding of the infrastructure and can work on my own tools for
-          the support team along with <i>mostly</i> understanding the debugging
-          and bugfixing process!
-        </p>
-      </article>
-      <article>
-        <h2>My Specs</h2>
-        <p>
-          A few bullet points for the recruiters out there (if so, hello!):
-
-          <ul>
-            <li><span id="exp">{exp}</span> years of full-stack NodeJS, Svelte,
-              and Frontend experience</li>
-            <li>Multimedia and Creative experience</li>
-            <li>Support and Debugging experience</li>
-            <li>Strong communication and technology skills</li>
-            <li>I work well with a team (but who needs 'em?)</li>
-          </ul>
-      </article>
-    </section>
-    <section class="projects" on:scroll={scroll} bind:this={projects}>
-      <article>
-        <a href="http://classaware.org/timer.html">
-          <h2>Classaware</h2>
-        </a>
-        <p>
-          A class countdown system I built for my High School. It is still
-          operational and still recieves updates. Classaware was the first
-          widespread project I had created in my coding career.
-        </p>
-      </article>
-      <article>
-        <a href="https://github.com/vandesm14/clui">
-          <h2>The CLUI</h2>
-        </a>
-        <p>
-          My own take of the CLUI
-          <a href="https://github.com/replit/clui">created by Replit</a>. A
-          command system and accompanying web client built with Svelte. One of
-          my first open-source projects and one that I enjoyed quite a bit.
-        </p>
-      </article>
-      <article>
-        <a href="https://blog.thedevbird.com">
-          <h2>Blog</h2>
-        </a>
-        <p>
-          Blogs are super important for communication, but it's difficult to
-          keep one up to date. I have finally overcame the "its not good
-          enough" problem and have created a blog using
-          <a href="https://hashnode.com">Hashnode</a>. Enjoy!
-        </p>
-      </article>
-      <article>
-        <a href="https://theturbo.fish">
-          <h2>TurboFish</h2>
-        </a>
-        <p>
-          That community I talked about in my bio. If you haven't read it,
-          TL;DR: It is a dev & tech community that I run. It has a podcast and
-          other fun stuff.
-        </p>
-      </article>
-      <article>
-        <a href="https://vandesm14.github.io/ratio-timer/">
-          <h2>Ratio Timer</h2>
-        </a>
-        <p>
-          A pomodoro-like timer for tracking your productivity. I built this to
-          help people keep track of their work & break hours in a dynamic and
-          responsive timer.
-        </p>
-      </article>
-      <article>
-        <a href="javascript:void(0)" onclick="alert('you\'re already here silly!')" target="_self">
-          <h2>Portfolio</h2>
-        </a>
-        <p>
-          The thing you're looking at now. It took me various iterations over
-          the years to finally get this right. I actually spent quite a bit of
-          time wireframing and designing this to make it look awesome!
-        </p>
-      </article>
-    </section>
-  </main>
-
-  <script defer>
-    let age = new Date().getFullYear() - 2002;
-    let exp = new Date().getFullYear() - 2017;
-    document.getElementById('age').innerHTML = age;
-    document.getElementById('exp').innerHTML = exp;
-  </script>
-</body>
-
+      <p>
+        Professional web developer with a knack for side projects and broad
+        horizions
+      </p>
+    </main>
+    <script src="/src/script.ts"></script>
+  </body>
 </html>
