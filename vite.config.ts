@@ -8,7 +8,7 @@ export default defineConfig({
       targets: [
         {
           src: 'src/content',
-          dest: './content',
+          dest: '.',
         },
       ],
     }),
