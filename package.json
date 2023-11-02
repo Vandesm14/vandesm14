@@ -18,7 +18,7 @@
     "markdown-yaml-metadata-parser": "^3.0.0",
     "marked": "^4.2.12",
     "vite-plugin-static-copy": "^0.13.1",
-    "yaml": "^2.2.1"
+    "yaml": "^2.2.2"
   },
   "devDependencies": {
     "@types/marked": "^4.0.8",
