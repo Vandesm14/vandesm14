@@ -2,7 +2,6 @@ import { marked } from 'marked';
 import $ from 'cash-dom';
 import metadataParser from 'markdown-yaml-metadata-parser';
 
-const INDEX_PATH = '/content/index.md';
 const PROJECTS_PATH = '/content/projects';
 
 type Project = {
@@ -47,6 +46,12 @@ function appendProjects(projects: Project[]) {
 
   appendProjects(projects);
 
-  const indexContent = await fetch(INDEX_PATH).then((r) => r.text());
-  $('#index').html(marked(indexContent));
+  const currentYear = new Date().getFullYear();
+  const experience = currentYear - 2017;
+  const job = currentYear - 2021;
+
+  $('header').html($('header').html().replace('$xp', experience.toString()));
+
+  const index = await fetch('/content/index.md').then((r) => r.text());
+  $('#index').html(marked(index.replace('$job', job.toString())));
 })();
