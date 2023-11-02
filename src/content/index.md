@@ -1,11 +1,25 @@
-# Hey!
+## TL;DR
 
-I'm Shane, a friendly fullstack bird... I mean, _developer_. I specialize in creating side projects and causing errors.
+I am a developer (TypeScript & Rust), artist, music artist, photography-artist, and multimedia enthusiast (artist).
 
-## About
+## How did I get here?
 
-Like most developers, I started coding in **JavaScript** when I was 15 (2017). I opened up the browser's console, and noticed that I could "hack". I learned about HTML, and created my first form that did... nothing. It was a fake "Email Us" form that didn't to anything at all. However, that was the **first** project that I had created and had even created a name for it "PostIt!" (if I recall correctly). My naming skills have been strong since the beginning haha.
+My journey started on Replit, an online IDE, building tiny web apps, writing games and my own cryptography system. At the time, I **barely knew anything**.
 
-Nowadays, I am working as a full-time **Support Engineer for Replit**, working with customers, our documentation, and fixing issues in our website (powered by **NextJS + TS**). I also work on side projects, but in fear of duplication, I will kindly guide you to the [Projects](/#projects) section or my [GitHub](https://github.com/vandesm14).
+However, as I learned the limits of my knowledge, I continued to push forward, learning more and more. Instead of taking a coding class at school or getting a certificate online, I spent my time **absorbing everything**.
 
-## Projects
+As I progressed, my use of Replit was not only developing apps, but also interacting with the community. I climbed my way from being an **early adopter**, to a moderator of Repl Talk, the forum of the platform.
+
+After graduating high school, I couldn’t find a job anywhere. But, after a Replit event in Discord, I saw that Amjad, the CEO, was still online. Knowing that this was my only chance to DM him (he was seldom online), I quickly wrote up a message on what I was good at and if I could get a job there.
+
+That message marked the beginning of my **professional career**.
+
+## Where am I now?
+
+After a swift reply from Amjad, I was sent through a set of interviews. Then, one morning, I had received an email from HR that had sealed my career as a **customer support engineer**.
+
+That was $job years ago. Since then, I have learned so much from my fellow engineers and from the job itself. Starting out as a simple “Reply to these emails”, I found my way around a full-time job. As things quickly accelerated, I had to keep a **fast-paced mindset** in order to keep up.
+
+I was involved in hiring the new manager and the other support engineers. Though my title stayed the same, I provided a valuable role in not only communicating with troubled users, but **developing tools and software** for our team.
+
+Less than a year later, we had a new manager. With that, came more hires and changes to the team. We migrated from software to software, decreasing our footprint as much as we could. Through all of this, I was heavily involved in refactoring our integrations and workflows **ensuring a smooth transition**.

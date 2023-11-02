@@ -1,11 +1,85 @@
-html, body, div, form, fieldset, legend, label {
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('/assets/Ubuntu-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('/assets/Ubuntu-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html,
+body,
+div,
+form,
+fieldset,
+legend,
+label {
   margin: 0;
-  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 6px 0;
+  font-weight: normal;
+}
+
+/* For the correct header sizes */
+h2 {
+  font-size: 32px;
 }
 
 body {
-  background-color: #272727;
+  background-color: #1f1f1f;
   color: #ffffff;
-  font-family: 'Arial', sans-serif;
-  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+
+  /* Outer */
+  padding: 60px;
+  margin: 0 auto;
+
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+  width: 886px;
+}
+
+/* Flexing each major section */
+header,
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Center the content of the header */
+header {
+  text-align: center;
+}
+
+/* Specific to the inner sections of the main content */
+main section#index h2 {
+  margin-top: 42px;
+}
+
+.separator {
+  background-color: #d9d9d9;
+  opacity: 0.42;
+  height: 3px;
+}
+
+.blue {
+  color: #50a0ff;
+}
+
+.big {
+  font-size: 96px;
 }
