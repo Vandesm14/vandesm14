@@ -12,12 +12,9 @@
   font-style: normal;
 }
 
-a {
-  color: #50a0ff;
-}
-
+a,
 a:visited {
-  color: #2663ad;
+  color: #418ae4;
 }
 
 html,
