@@ -1,7 +1,3 @@
-## TL;DR
-
-I am a developer (TypeScript & Rust), artist, music artist, photography-artist, and multimedia enthusiast (artist).
-
 ## How did I get here?
 
 My journey started on Replit, an online IDE, building tiny web apps, writing games and my own cryptography system. At the time, I **barely knew anything**.

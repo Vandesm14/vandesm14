@@ -52,6 +52,9 @@ function appendProjects(projects: Project[]) {
 
   $('header').html($('header').html().replace('$xp', experience.toString()));
 
-  const index = await fetch('/content/index.md').then((r) => r.text());
-  $('#index').html(marked(index.replace('$job', job.toString())));
+  const tldr = await fetch('/content/tldr.md').then((r) => r.text());
+  $('#tldr').html(marked(tldr));
+
+  const testimony = await fetch('/content/testimony.md').then((r) => r.text());
+  $('#testimony').html(marked(testimony.replace('$job', job.toString())));
 })();
