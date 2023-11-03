@@ -12,6 +12,14 @@
   font-style: normal;
 }
 
+a {
+  color: #50a0ff;
+}
+
+a:visited {
+  color: #2663ad;
+}
+
 html,
 body,
 div,

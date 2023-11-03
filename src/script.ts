@@ -1,6 +1,5 @@
 import { marked } from 'marked';
 import $ from 'cash-dom';
-import metadataParser from 'markdown-yaml-metadata-parser';
 
 const PROJECTS_PATH = '/content/projects';
 
@@ -16,23 +15,24 @@ type Project = {
 };
 
 async function fetchProjectList(): Promise<string[]> {
-  return await fetch(`${PROJECTS_PATH}/projects.json`).then((r) => r.json());
+  const text = await fetch(`${PROJECTS_PATH}/projects.txt`).then((r) =>
+    r.text()
+  );
+  return text.split('\n').filter((line) => line.trim() !== '');
 }
 
 async function fetchProject(name: string) {
-  const projectContent = await fetch(`${PROJECTS_PATH}/${name}.md`).then((r) =>
+  const content = await fetch(`${PROJECTS_PATH}/${name}.md`).then((r) =>
     r.text()
   );
-  const parsed = metadataParser<Project>(projectContent);
-  return { ...parsed.metadata, content: marked(parsed.content) };
+  return marked(content);
 }
 
-function appendProjects(projects: Project[]) {
+function appendProjects(projects: string[]) {
   projects.map((project) => {
     $('#projects').append(`
     <div class="project">
-      <h2>${project.name}</h2>
-      <div class="project-content">${project.content}</div>
+      <div class="project-content">${project}</div>
     </div>
   `);
   });
@@ -40,7 +40,7 @@ function appendProjects(projects: Project[]) {
 
 (async () => {
   const projectList = await fetchProjectList();
-  const projects: Project[] = await Promise.all(
+  const projects: string[] = await Promise.all(
     projectList.map(async (name) => fetchProject(name))
   );
 
