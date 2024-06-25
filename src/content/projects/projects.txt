@@ -1,6 +1,0 @@
-stack
-node-shell
-cc-twigs
-conetto
-jason
-classaware
