@@ -10,7 +10,7 @@ After graduating high school, I couldn’t find a job anywhere. But, after a Rep
 
 That message marked the beginning of my **professional career**.
 
-## Where am I now?
+## Life at Replit?
 
 After a swift reply from Amjad, I was sent through a set of interviews. Then, one morning, I had received an email from HR that had sealed my career as a **customer support engineer**.
 
@@ -19,3 +19,7 @@ That was $job years ago. Since then, I have learned so much from my fellow engin
 I was involved in hiring the new manager and the other support engineers. Though my title stayed the same, I provided a valuable role in not only communicating with troubled users, but **developing tools and software** for our team.
 
 Less than a year later, we had a new manager. With that, came more hires and changes to the team. We migrated from software to software, decreasing our footprint as much as we could. Through all of this, I was heavily involved in refactoring our integrations and workflows **ensuring a smooth transition**.
+
+## Where am I now?
+
+I was laid off from Replit late February of 2024, along with a few other members of the support team. It wasn't due to performance or anything on my end.
