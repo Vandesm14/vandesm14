@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Ubuntu';
-  src: url('/assets/Ubuntu-Regular.ttf');
+  src: url('/Ubuntu-Regular.ttf');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Ubuntu';
-  src: url('/assets/Ubuntu-Bold.ttf');
+  src: url('/Ubuntu-Bold.ttf');
   font-weight: 700;
   font-style: normal;
 }
