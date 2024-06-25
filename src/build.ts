@@ -1,4 +1,6 @@
-import { marky } from 'https://deno.land/x/marky@v1.1.6/mod.ts';
+import { html, tokens } from 'https://deno.land/x/rusty_markdown@v0.4.1/mod.ts';
+
+const parse = (content: string) => html(tokens(content));
 
 let main = Deno.readTextFileSync('src/index.html');
 
@@ -11,7 +13,7 @@ for (const project of project_list) {
   const name = project.name;
   const content = Deno.readTextFileSync(`src/content/projects/${name}`);
 
-  project_strings += `${marky(content)}\n`;
+  project_strings += `${parse(content)}\n`;
 }
 
 const year = new Date().getFullYear();
@@ -21,10 +23,10 @@ const job = year - 2021;
 main = main.replace('$xp', experience.toString());
 main = main.replace('$year', year.toString());
 
-main = main.replace('{tldr}', marky(tldr));
+main = main.replace('{tldr}', parse(tldr));
 main = main.replace(
   '{testimony}',
-  marky(testimony.replace('$job', job.toString()))
+  parse(testimony.replace('$job', job.toString()))
 );
 main = main.replace('{projects}', project_strings);
 

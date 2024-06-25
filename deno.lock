@@ -1,8 +1,14 @@
 {
   "version": "3",
   "remote": {
+    "https://deno.land/std@0.103.0/encoding/base64.ts": "eecae390f1f1d1cae6f6c6d732ede5276bf4b9cd29b1d281678c054dc5cc009e",
+    "https://deno.land/x/lz4@v0.1.2/mod.ts": "4decfc1a3569d03fd1813bd39128b71c8f082850fe98ecfdde20025772916582",
+    "https://deno.land/x/lz4@v0.1.2/wasm.js": "b9c65605327ba273f0c76a6dc596ec534d4cda0f0225d7a94ebc606782319e46",
     "https://deno.land/x/marky@v1.1.6/marky.ts": "9c90564d79a7a4d704faef20ac97619cd20b967e48885351b6ef8a22ffdf99eb",
     "https://deno.land/x/marky@v1.1.6/mod.ts": "fcae8411be5ae4399695689883dc09d0f279d59369f4562a9f2762d47cce39f4",
-    "https://deno.land/x/marky@v1.1.6/parsers.ts": "494d7611f2d316cfe8c2f88abd1558ddb5afb62b7af89f71f39c3154919169a7"
+    "https://deno.land/x/marky@v1.1.6/parsers.ts": "494d7611f2d316cfe8c2f88abd1558ddb5afb62b7af89f71f39c3154919169a7",
+    "https://deno.land/x/rusty_markdown@v0.4.1/event.ts": "d77c27dca6e70837f2adcffecdb032742dd6e79cf2d56d73227f2eaa910cb6c4",
+    "https://deno.land/x/rusty_markdown@v0.4.1/mod.ts": "3ed2f7b57ef13b56e4f5b650e3696778bf3ea528f748fd3876d97ade189cdab6",
+    "https://deno.land/x/rusty_markdown@v0.4.1/wasm/deno_rusty_markdown.js": "fcdbce8bd23a6c8237254f882e82fe89e04444f3abdd56bb8297ffb1f6dee6d6"
   }
 }
