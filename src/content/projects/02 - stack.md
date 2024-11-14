@@ -2,7 +2,7 @@
 
 **Source:** [GitHub](https://github.com/vandesm14/stack)
 
-**Website:** [Website/Docs](https://vandesm14.github.io/stack)
+**Website:** [https://vandesm14.github.io/stack](https://vandesm14.github.io/stack) (Website and Documentation)
 
 _Stack is a dynamic, stack-based, concatenative programming language._
 
