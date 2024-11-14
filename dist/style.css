@@ -70,7 +70,7 @@ main {
 }
 
 main p {
-  line-height: 28px;
+  line-height: 30px;
 }
 
 /* Center the content of the header */
@@ -85,13 +85,12 @@ main section#tldr h2 {
 
 /* Padding between content sections */
 main h1 {
-  margin-top: 42px;
+  margin-top: 30px;
 }
 
 .separator {
-  background-color: #d9d9d9;
-  opacity: 0.42;
-  height: 3px;
+  background-color: #d9d9d944;
+  height: 2px;
 }
 
 .blue {
@@ -100,6 +99,25 @@ main h1 {
 
 .big {
   font-size: 96px;
+}
+
+.project {
+  padding-top: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #d9d9d944;
+}
+
+.project h2 {
+  color: #50a0ff;
+}
+
+.testimony h2 {
+  color: #50a0ff;
+  padding-top: 20px;
+}
+
+footer {
+  padding-top: 50px;
 }
 
 @media screen and (max-width: 1005px) {
