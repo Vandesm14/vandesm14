@@ -36,16 +36,16 @@ const experience = year - 2017;
 const rust = year - 2022;
 const job = year - 2021;
 
-main = main.replace('{tldr}', parse(tldr));
+main = main.replaceAll('{tldr}', parse(tldr));
 
-main = main.replace('$xp', experience.toString());
-main = main.replace('$year', year.toString());
-main = main.replace('$rust', rust.toString());
+main = main.replaceAll('$xp', experience.toString());
+main = main.replaceAll('$year', year.toString());
+main = main.replaceAll('$rust', rust.toString());
 
-main = main.replace('{projects}', project_strings);
-main = main.replace(
+main = main.replaceAll('{projects}', project_strings);
+main = main.replaceAll(
   '{testimony}',
-  parse(testimony.replace('$job', job.toString()))
+  parse(testimony.replaceAll('$job', job.toString()))
 );
 
 Deno.mkdirSync('dist/', { recursive: true });
