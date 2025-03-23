@@ -50,6 +50,8 @@ main = main.replace(
 
 Deno.mkdirSync('dist/', { recursive: true });
 Deno.writeTextFileSync('dist/index.html', main);
-Deno.copyFileSync('src/style.css', 'dist/style.css');
-Deno.copyFileSync('src/fav.png', 'dist/fav.png');
-Deno.copyFileSync('src/banner.jpg', 'dist/banner.jpg');
+
+// Loop through all static files
+for (const file of Deno.readDirSync('src/static')) {
+  Deno.copyFileSync(`src/static/${file.name}`, `dist/${file.name}`);
+}
