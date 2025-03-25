@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shane Vandegrift</title>
 
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' 'nonce-rAnd0m'"
+    />
 
     <!-- Primary Meta Tags -->
     <meta name="title" content="Shane Vandegrift" />
@@ -68,5 +71,17 @@
       <section class="testimony">{testimony}</section>
     </main>
     <footer>&copy; Copyright 2024 Shane Vandegrift</footer>
+
+    <script nonce="rAnd0m">
+      const a = 'thedevbird';
+      const b = 'pm';
+      const c = 'me';
+      const d = `${a}@${b}.${c}`;
+      const e = document.getElementById('email');
+      e.href = `mailto:${d}`;
+      e.addEventListener('click', function () {
+        e.innerText = d;
+      });
+    </script>
   </body>
 </html>

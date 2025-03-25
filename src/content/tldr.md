@@ -4,3 +4,4 @@ I am a developer (<span class="blue">Rust & TypeScript</span>), music artist, an
 - [Bluesky](https://bsky.app/profile/thedevbird.bsky.social)
 - [Blog](https://blog.thedevbird.com)
 - [LinkedIn](https://www.linkedin.com/in/shane-vandegrift-769696192/)
+- <a id="email">Email</a>
