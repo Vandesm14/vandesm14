@@ -10,3 +10,5 @@ serve:
 # Don't Run Locally!
 reload-nginx:
   /etc/nginx/conf.d/update.sh
+
+update: build && reload-nginx
