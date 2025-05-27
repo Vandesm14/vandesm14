@@ -1,8 +1,8 @@
 ## Airwave
 
-**Source:** [GitHub](https://github.com/vandesm14/airwave)
+**Source:** [GitHub](https://arwv.cc/github)
 
-**Website:** [https://airwavegame.com](https://airwavegame.com) (Website and Blog)
+**Website:** [https://airwavegame.com](https://airwavegame.com)
 
 _Airwave is an ATC (Air Traffic Control) simulator based on real-world units and commands._
 
