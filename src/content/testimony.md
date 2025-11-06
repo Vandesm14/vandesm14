@@ -22,4 +22,4 @@ Less than a year later, we had a new manager. With that, came more hires and cha
 
 ## Where am I now?
 
-I was laid off from Replit in late February of 2024, along with a few other members of the support team. They assured me that it wasn't due to performance or anything on my end. Their stated reason was to "restructur the support team". So, I've been enjoying my time off, working on Airwave, Stack, and other projects, along with applying to jobs once in a while. If you are reading this and you know a guy (or you are the guy), I'd love to hear from you!
+I was laid off from Replit in late February of 2024, along with a few other members of the support team. They assured me that it wasn't due to performance or anything on my end. Their stated reason was to "restructure the support team". So, I've been enjoying my time off, working on Airwave, Stack, and other projects, along with applying to jobs once in a while. If you are reading this and you know a guy (or you are the guy), I'd love to hear from you!
