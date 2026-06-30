@@ -1,3 +1,5 @@
+![projects](/projects.png)
+
 ## Airwave
 
 **August 2024 - Present**
