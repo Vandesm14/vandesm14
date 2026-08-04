@@ -4,7 +4,7 @@
 
 **August 2024 - Present**
 
-**Source:** [GitHub](https://arwv.cc/github)
+**Download:** [Itch.io](https://arwv.cc/itch)
 
 **Website:** [https://airwavegame.com](https://airwavegame.com)
 
@@ -12,9 +12,11 @@
 
 _Airwave is an air traffic control sim-game that aims to make air traffic control fun for the enthusiast and the expert._
 
-Frustrated by the current landscape of ATC games, I sought out to build one powered by AI. But wait, not just because AI is a buzzword, but because it allowed me to parse tasks from speech-to-text requests made by the user without a hard-coded syntax for the user to follow.
+Frustrated by the current landscape of ATC games, I sought out to build one powered by your voice instead of directing aircraft with buttons strict text commands. Within a week, the first prototype was born. It was surprisingly fun to play, despite the limited functionality. As I kept building it, however, there was strain on having to support both a Rust backend and a TypeScript (SolidJS) frontend. So around February of 2026, after a much needed hiatus to focus on other work, I began rewriting Airwave into [Bevy](https://bevy.org/).
 
-Utilizing Rust, I was able to build a comprehensive simulation that matched the real-world operations of aircraft and ATC. As the game grew, the scope started to change. Focusing more on the gamification aspect of Airwave, I rebuilt it to feature airport-management strategies rather than the OG idea of building an ATC MMO-style simulator.
+As of now (August of 2026), Airwave has been released to [Itch.io](https://arwv.cc/itch) under an in-development alpha. The debut release was published on July 20th, 2026. As of now, Airwave supports voice (and text) control, native multiplayer, multi-airport management, and both air _and_ ground control. I plan to continue development of Airwave to expand its feature set and vision, leaning more towards uncharted waters where players are given more responsibilities and roles, optionally handing these off to Auto ATC if they'd like to focus on a subset of them, or bringing their friends to help out.
+
+You can view an in-depth narrative on how Airwave came to be along with the big decisions I made along the way on [the blog](https://arwv.cc/blog). I also have a [Discord server](https://arwv.cc/discord) that you can join to provide feedback, report bugs, get help with Airwave, or simply follow along for the ride.
 
 ---
 
@@ -24,7 +26,7 @@ Utilizing Rust, I was able to build a comprehensive simulation that matched the 
 
 **Source:** [GitHub](https://github.com/vandesm14/quip)
 
-Quip is a dynamic lisp-like language born out of the dream of building a usable language that was highly embeddable and strict in it's ruleset, making it infinitely expandable.
+Quip is a dynamic lisp-like language born out of the dream of building a language that was highly embeddable and strict in it's ruleset, making it infinitely expandable. I was frustrated with poorly-implemented DSLs that screwed the developer over once they wanted to implement more than a few if statements and a for loop. Inspired by the composition and native expansion of lisp-like languages, I built Quip to let the developer build their own functionality and behavior, all without leaving the language. This way, the implementor of Quip could provide a functionally small set of intrinsics while still allowing the end user to build anything with those primitives.
 
 A spiritrual successor to [Stack](#stack) (see below), Quip was a reincarnation of the same principles but with a constrained scope and direction.
 
