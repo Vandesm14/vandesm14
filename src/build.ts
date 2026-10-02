@@ -5,7 +5,7 @@ const parse = (content: string) => html(tokens(content));
 let main = Deno.readTextFileSync("src/index.html");
 
 const tldr = Deno.readTextFileSync("src/content/tldr.md");
-const testimony = Deno.readTextFileSync("src/content/testimony.md");
+const experience = Deno.readTextFileSync("src/content/experience.md");
 const projects = Deno.readTextFileSync("src/content/projects.md").split("---")
   .map(
     (entry) => entry.trim(),
@@ -19,20 +19,21 @@ for (const project of projects) {
 }
 
 const year = new Date().getFullYear();
-const experience = year - 2017;
+// Since starting web dev.
+const xp = year - 2017;
+// Since starting Rust dev.
 const rust = year - 2022;
-const job = year - 2021;
 
 main = main.replaceAll("{tldr}", parse(tldr));
 
-main = main.replaceAll("$xp", experience.toString());
+main = main.replaceAll("$xp", xp.toString());
 main = main.replaceAll("$year", year.toString());
 main = main.replaceAll("$rust", rust.toString());
 
 main = main.replaceAll("{projects}", project_strings);
 main = main.replaceAll(
-  "{testimony}",
-  parse(testimony.replaceAll("$job", job.toString())),
+  "{experience}",
+  parse(experience),
 );
 
 Deno.mkdirSync("dist/", { recursive: true });

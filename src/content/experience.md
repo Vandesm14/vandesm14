@@ -1,3 +1,17 @@
+# Million
+
+https://million.dev
+
+**July 2025 - Present**
+
+...
+
+# Replit
+
+https://replit.com
+
+**May 2021 - February 2024**
+
 ## How did I get here?
 
 My journey started on Replit, an online IDE, building tiny web apps, writing games, and my own cryptography system. At the time, I **barely knew anything**.
@@ -14,7 +28,7 @@ That message marked the beginning of my **professional career**.
 
 After a swift reply from Amjad, I was sent through a set of interviews. Then, one morning, I received an email from HR that had sealed my career as a **customer support engineer**.
 
-That was $job years ago. Since then, I have learned so much from my fellow engineers and from the job itself. Starting out as a simple “Reply to these emails”, I found my way around a full-time job. As things quickly accelerated, I had to keep a **fast-paced mindset** in order to keep up.
+That was many years ago. Since then, I have learned so much from my fellow engineers and from the job itself. Starting out as a simple “Reply to these emails”, I found my way around a full-time job. As things quickly accelerated, I had to keep a **fast-paced mindset** in order to keep up.
 
 I was involved in hiring the new manager and the other support engineers. Though my title stayed the same, I provided a valuable role in not only communicating with troubled users but **developing tools and software** for our team.
 
