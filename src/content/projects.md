@@ -2,7 +2,7 @@
 
 ## Airwave
 
-**August 2024 - Present**
+**Development:** August 2024 - Present
 
 **Download:** [Itch.io](https://arwv.cc/itch)
 
@@ -22,7 +22,7 @@ You can view an in-depth narrative on how Airwave came to be along with the big 
 
 ## Quip
 
-**April 2026 - May 2026**
+**Development:** April 2026 - May 2026
 
 **Source:** [GitHub](https://github.com/vandesm14/quip)
 
@@ -34,7 +34,7 @@ A spiritrual successor to [Stack](#stack) (see below), Quip was a reincarnation 
 
 ## Stack
 
-**December 2023 - July 2024**
+**Development:** December 2023 - July 2024
 
 **Source:** [GitHub](https://github.com/vandesm14/stack)
 
@@ -49,3 +49,21 @@ Surprisingly, parsing and executing the code was easy. The part I found most cha
 Another fun feature was building a debugger with Egui, which allowed us to see inside the language and keep track of every operation (and even go back in time!).
 
 Stack isn't finished and neither am I. I'm still working hard to make it a fully-fledged and usable language.
+
+---
+
+## Ratio Timer
+
+**Development:** July 2021 - July 2022
+
+**Source:** [GitHub](https://github.com/vandesm14/ratio-timer)
+
+**Website:** [https://vandesm14.github.io/ratio-timer](https://vandesm14.github.io/ratio-timer)
+
+_Ratio Timer is a dynamic pomodoro-like timer where you define a work:break ratio instead of rigid, fixed intervals._
+
+A long time ago, I tried using a pomodoro timer. They were all the rage. The theory was neat, except for one fatal flaw: If you were in the zone and wanted to work for longer, you'd either have to start another 25min work session or pause the timer, do your work, then only have a 5min break regardless if you worked 25min or longer. I sought to fix that.
+
+It was easy, really. Pomodoro timers use the same exact ratio: 5:1 (for every 5 work minutes, provide 1 break minute) but restrict you under a 5x step of that ratio, giving us the 25min:5min timer we're used to. But if you simply remove that limitation of 5x the ratio, you could have a timer that follows you as you work, giving you just the right amount of break time from the ratio you set. It's similar to a chess clock in a way, where you have two timers with only one running at a time.
+
+To use it, you set a ratio, then you're off. Stay in the work mode while you work, then when you want to take a break, switch to the break mode and enjoy your ratio-perfect break! If you go over your break time, not a problem. It tracks the overage and applies an offset to your work time, showing you how much you need to work to resolve the disparity (more break + not enough work = more work).
