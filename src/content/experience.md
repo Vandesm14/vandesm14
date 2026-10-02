@@ -1,18 +1,16 @@
-# Million
+# Experience
 
-https://million.dev
+---
+
+## [Million](https://million.dev)
 
 **July 2025 - Present**
 
-...
-
-# Replit
-
-https://replit.com
+## [Replit](https://replit.com)
 
 **May 2021 - February 2024**
 
-## How did I get here?
+### How did I get here?
 
 My journey started on Replit, an online IDE, building tiny web apps, writing games, and my own cryptography system. At the time, I **barely knew anything**.
 
@@ -24,7 +22,7 @@ After graduating high school, I couldn’t find a job anywhere. But, after a Rep
 
 That message marked the beginning of my **professional career**.
 
-## Life at Replit?
+### Life at Replit?
 
 After a swift reply from Amjad, I was sent through a set of interviews. Then, one morning, I received an email from HR that had sealed my career as a **customer support engineer**.
 
@@ -34,6 +32,6 @@ I was involved in hiring the new manager and the other support engineers. Though
 
 Less than a year later, we had a new manager. With that, came more hires and changes to the team. We migrated from software to software, decreasing our footprint as much as we could. Through all of this, I was heavily involved in refactoring our integrations and workflows **ensuring a smooth transition**.
 
-## Where am I now?
+### Where am I now?
 
 I was laid off from Replit in late February of 2024, along with a few other members of the support team.
